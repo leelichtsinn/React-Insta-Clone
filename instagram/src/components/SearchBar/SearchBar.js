@@ -11,13 +11,19 @@ class SearchBar extends React.Component {
           <i class="fab fa-instagram"></i>
           <span>Instagram</span>
         </div>
-        <form action=''>
-          <input type='text'>search</input>
-        </form>
+        <SearchInput />
       </div>
     )
   }
 }
 
+
+const SearchInput = () => {
+  return (
+    <form action='' method='get'>
+      <input type='text' name='SearchInput'></input>
+    </form>
+  )
+}
 
 export default SearchBar;
