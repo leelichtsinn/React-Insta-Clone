@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchInput from './SearchBar.js'
 
 class SearchBar extends React.Component {
   // constructor() {
@@ -15,15 +16,6 @@ class SearchBar extends React.Component {
       </div>
     )
   }
-}
-
-
-const SearchInput = () => {
-  return (
-    <form action='' method='get'>
-      <input type='text' name='SearchInput'></input>
-    </form>
-  )
 }
 
 export default SearchBar;
